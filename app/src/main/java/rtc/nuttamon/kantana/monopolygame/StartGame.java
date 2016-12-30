@@ -18,6 +18,7 @@ public class StartGame extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StartGame.this, PlayGame.class));
+                finish();
             }
         });
 
